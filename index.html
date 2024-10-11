@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.html">Expand at lg</a>
@@ -45,6 +45,54 @@
             </div>
         </div>
     </nav>
+    <!-- fine navbar -->
+    
+    <!-- inizio main -->
+    <main class="pt-5">
+        <header class="container vh-100">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <img src="https://picsum.photos/300" class="dimensioni d-block mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id fugiat deleniti quidem officia est dolore recusandae corrupti necessitatibus vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia molestias nulla veniam quos numquam dolores, deleniti accusamus provident. Recusandae fugiat sint hic rem sequi perspiciatis dicta, nemo et eaque nisi!</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#firstCardModal">
+                                Modale 1
+                            </button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+    </main>
+    
+    <span class="btn btn-danger">Prova</span>
+    
+    <!-- MODALI -->
+    <div class="modal fade" id="firstCardModal" tabindex="-1" aria-labelledby="firstCardModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="firstCardModalLabel">Sono la modale 1</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Sei sicuro?</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     
     <!-- FONTAWESOME JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

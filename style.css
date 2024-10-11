@@ -1,0 +1,10 @@
+.card{
+    width: 300px;
+    min-height: 50px;
+    background-color: rgba(255, 0, 0, 0.208);
+}
+
+.dimensioni{
+    height: 200px;
+    width: 200px;
+}
